@@ -39,6 +39,9 @@ a {
   padding: 10px;
   left: -50px;
 }
+.text-left {
+  text-align: left;
+}
 
 .row-day {
   display: block;
@@ -64,7 +67,7 @@ a {
 
 .open-source-code {
   display: block;
-  margin: 0 auto;
+  margin: 5px;
   width: 375px;
   font-size: smaller;
 }

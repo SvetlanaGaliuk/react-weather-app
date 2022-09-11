@@ -2,7 +2,7 @@ import React from "react";
 
 export default function OpenSearchCode() {
   return (
-    <small className="open-source-code">
+    <small className="open-source-code text-left">
       <a
         href="https://github.com/SvetlanaGaliuk/react-weather-app"
         target="_blank"

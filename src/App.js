@@ -15,7 +15,7 @@ function App() {
           <h1>Weather App</h1>
           <Cities />
           <SearchForm />
-          <CurrentBlock />
+          <CurrentBlock defaultCity="New York" />
           <OpenSearchCode />
         </header>
       </div>
