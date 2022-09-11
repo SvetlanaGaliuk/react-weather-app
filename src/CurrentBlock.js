@@ -1,4 +1,6 @@
+//4_5 Added API integration
 import React, { useState } from "react";
+import FormattedDate from "./FormattedDate.js";
 import axios from "axios";
 
 export default function CurrentBlock(props) {
@@ -10,7 +12,7 @@ export default function CurrentBlock(props) {
       ready: true,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
-      date: "Wednesday",
+      date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
       iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
       wind: response.data.wind.speed,
@@ -27,8 +29,10 @@ export default function CurrentBlock(props) {
               <div className="text-left">
                 <h2 id="city">{weatherData.city}</h2>
 
-                <div id="currentFormattedDate">22.05.2022</div>
-                <div id="date">{weatherData.date}</div>
+                <div id="currentFormattedDate">
+                  <FormattedDate date={weatherData.date} />
+                </div>
+                <div id="date"></div>
                 <div id="description">{weatherData.description}</div>
                 <br />
 
