@@ -1,1 +1,132 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
 
+body {
+  color: #333344;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  color: blue;
+  padding-top: 10px;
+}
+
+strong {
+  font-size: 45px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mb-3 {
+  border: 1.5px solid #333344;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.current_block {
+  display: block;
+  margin: 0 auto;
+  border: 1.5px solid #333344;
+  padding: 10px;
+  left: -50px;
+}
+
+.row-day {
+  display: block;
+  margin: 0 auto;
+  width: 373px;
+}
+
+.row-box {
+  border: 1.5px solid #333344;
+  padding-left: 10px;
+}
+.day {
+  display: block;
+  border: 1.5px solid #333344;
+}
+
+.temperature {
+  display: block;
+  margin: 0 auto;
+  padding: 30px 10px 10px;
+  font-size: 40px;
+}
+
+.open-source-code {
+  display: block;
+  margin: 0 auto;
+  width: 375px;
+  font-size: smaller;
+}
+
+.temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -20px;
+  cursor: default;
+}
+
+.temperature .active {
+  color: #333344;
+  cursor: default;
+}
+
+.temperature .active:hover {
+  text-decoration: none;
+}
+
+.row-cols-4 {
+  padding: 0px 10px 10px;
+}
+
+.col-8 {
+  padding: 0px;
+}
+
+.col-4 {
+  padding: 0px;
+}
+
+#current-location-button {
+  color: white;
+  background: green;
+  border-color: green;
+}
+
+#icon {
+  position: relative;
+  left: -20px;
+}
+#button-addon2 {
+  color: white;
+  background: blue;
+  border-color: blue;
+}
+
+#description {
+  text-transform: capitalize;
+}
+
+#kharkov,
+#cherkasy,
+#kyiv,
+#lviv {
+  color: #333344;
+}
+
+#kharkov:hover,
+#cherkasy:hover,
+#kyiv:hover,
+#lviv:hover {
+  opacity: 0.7;
+}

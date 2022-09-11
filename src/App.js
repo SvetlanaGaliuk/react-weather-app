@@ -1,24 +1,26 @@
-import React from "react";
-import Weather from "./Weather";
+//4_5_React Weather Search Engine
+
+import OpenSearchCode from "./OpenSearchCode.js";
+import Cities from "./Cities";
+import SearchForm from "./SearchForm.js";
+import CurrentBlock from "./CurrentBlock.js";
+
 import "./App.css";
 
-export default function App() {
+function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App</h1>
-        <Weather />
-        <footer>
-          This project was coded by Svetlana Galiuk and is{" "}
-          <a
-            href="https://github.com/SvetlanaGaliuk/react-weather-app"
-            target="_blank"
-            rel="noreferrer"
-          >
-            open-soursed on GitHub
-          </a>
-        </footer>
+        <header className="App-header">
+          <h1>Weather App</h1>
+          <Cities />
+          <SearchForm />
+          <CurrentBlock />
+          <OpenSearchCode />
+        </header>
       </div>
     </div>
   );
 }
+
+export default App;
