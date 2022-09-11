@@ -2,7 +2,7 @@
 
 import OpenSearchCode from "./OpenSearchCode.js";
 import Cities from "./Cities";
-import SearchForm from "./SearchForm.js";
+
 import CurrentBlock from "./CurrentBlock.js";
 
 import "./App.css";
@@ -14,7 +14,6 @@ function App() {
         <header className="App-header">
           <h1>Weather App</h1>
           <Cities />
-          <SearchForm />
           <CurrentBlock defaultCity="New York" />
           <OpenSearchCode />
         </header>
