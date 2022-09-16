@@ -1,7 +1,7 @@
 //4_5 Added API integration
 import React, { useState } from "react";
-
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
 
 export default function CurrentBlock(props) {
@@ -66,6 +66,7 @@ export default function CurrentBlock(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
+        <WeatherForecast />
       </div>
     );
   } else {

@@ -1,0 +1,9 @@
+.WeatherForecast-temperature-max {
+  text-align: right;
+  padding-top: 1px;
+}
+
+.col-lg-2 {
+  padding: 2px 5px 0px 10px;
+  text-align: center;
+}
