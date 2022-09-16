@@ -43,16 +43,6 @@ a {
   text-align: left;
 }
 
-.row-day {
-  display: block;
-  margin: 0 auto;
-  width: 375px;
-}
-
-.row-box {
-  border: 1.5px solid #333344;
-  padding-left: 10px;
-}
 .day {
   display: block;
   border: 1.5px solid #333344;
